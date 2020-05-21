@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Eiada</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">2349888075261877</string>
+    <string name="fb_login_protocol_scheme">fb2349888075261877</string>
+
+
+    <string-array name="relation">
+        <item>Select Relation</item>
+        <item>Spouse</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Grandfather</item>
+        <item>Grandmother</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="addressTypes">
+        <item>Home</item>
+        <item>Office</item>
+        <item>Others</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "26318257833",
+    "firebase_url": "https://eiada-app.firebaseio.com",
+    "project_id": "eiada-app",
+    "storage_bucket": "eiada-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26318257833:android:88b74e686f16f6b6e3b3b8",
+        "android_client_info": {
+          "package_name": "com.eiadatech.eiada"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "26318257833-rt8cielemmntlb0uh6frn8b8t689g4co.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.eiadatech.eiada",
+            "certificate_hash": "cb1f873f6a219fc87e5f3579509e54f0bc105c2e"
+          }
+        },
+        {
+          "client_id": "26318257833-1pkf90np5d8vqel74avpsn45049ppc40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlub0YekLPTfYni487dBV1qwN_pFBfYZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "26318257833-1pkf90np5d8vqel74avpsn45049ppc40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

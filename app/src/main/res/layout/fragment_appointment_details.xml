@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/constraintLayout"
+    tools:context=".Fragments.AppointmentDetailsFragment">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView127" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView128" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="0.5dp"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView"
+        app:layout_constraintTop_toBottomOf="@+id/profileCircleImageView" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView113" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="0.5dp"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView1"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView1"
+        app:layout_constraintTop_toBottomOf="@+id/profileCircleImageView1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView114" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="0.5dp"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView2"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView2"
+        app:layout_constraintTop_toBottomOf="@+id/profileCircleImageView2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView115" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="0.5dp"
+        android:layout_height="30dp"
+        android:background="@color/colorDarkGray"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView3"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView3"
+        app:layout_constraintTop_toBottomOf="@+id/profileCircleImageView3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileCircleImageView4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:src="@color/themeColor"
+        app:civ_border_color="@color/colorWhite"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView116" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/textView113"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/textView114"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView1"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView1"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView1" />
+
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/textView115"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView2"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView2"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView2" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/textView116"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView3"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView3"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView3" />
+
+    <TextView
+        android:id="@+id/textView121"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center"
+        android:text="6"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="@+id/profileCircleImageView4"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView4"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView4"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView4" />
+
+    <TextView
+        android:id="@+id/textView122"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Rejected"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+        app:layout_constraintBottom_toTopOf="@+id/textView113"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView" />
+
+    <TextView
+        android:id="@+id/textView123"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Approved"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+        app:layout_constraintBottom_toTopOf="@+id/textView114"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView1"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView1" />
+
+    <TextView
+        android:id="@+id/textView124"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Checked"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+        app:layout_constraintBottom_toTopOf="@+id/textView115"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView2"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView2" />
+
+    <TextView
+        android:id="@+id/textView125"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Report In Progress"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView116"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView3"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView3" />
+
+    <TextView
+        android:id="@+id/textView126"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Report Created"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+        app:layout_constraintBottom_toBottomOf="@+id/profileCircleImageView4"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView4"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView4" />
+
+    <TextView
+        android:id="@+id/textView127"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/app_color_gradient"
+        android:fontFamily="@font/roboto_bold"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Appointment Status"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView128"
+        android:layout_width="0.5dp"
+        android:layout_height="30dp"
+        android:text="TextView"
+        android:background="@color/colorDarkGray"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView5"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView5"
+        app:layout_constraintTop_toBottomOf="@+id/profileCircleImageView5" />
+
+    <TextView
+        android:id="@+id/textView129"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="center_vertical"
+        android:text="Pending"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/themeColor"
+        app:layout_constraintBottom_toTopOf="@+id/textView128"
+        app:layout_constraintStart_toEndOf="@+id/profileCircleImageView5"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView5" />
+
+    <TextView
+        android:id="@+id/textView130"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="1"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toTopOf="@+id/textView128"
+        app:layout_constraintEnd_toEndOf="@+id/profileCircleImageView5"
+        app:layout_constraintStart_toStartOf="@+id/profileCircleImageView5"
+        app:layout_constraintTop_toTopOf="@+id/profileCircleImageView5" />
+
+    <TextView
+        android:id="@+id/textView131"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Review"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView127"
+        app:layout_constraintEnd_toStartOf="@+id/imageView37"
+        app:layout_constraintTop_toTopOf="@+id/textView127" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="5dp"
+        android:src="@android:drawable/btn_star_big_on"
+        app:layout_constraintBottom_toBottomOf="@+id/textView131"
+        app:layout_constraintEnd_toEndOf="@+id/textView127"
+        app:layout_constraintTop_toTopOf="@+id/textView131" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
